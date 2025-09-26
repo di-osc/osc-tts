@@ -8,3 +8,10 @@
 - **延迟低**
 - **流式生成**
 - **Openai API兼容**
+
+
+## 代办
+
+- [ ] SparkTTS模型支持
+- [ ] IndexTTS2模型支持
+- [ ] Openai API兼容
