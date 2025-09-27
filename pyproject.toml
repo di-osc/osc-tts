@@ -1,0 +1,26 @@
+[project]
+name = "osc-tts"
+version = "0.1.0"
+description = "fast tts inference framework"
+readme = "README.md"
+authors = [
+    { name = "di-osc", email = "790990241@qq.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "osc-llm>=0.2.5",
+    "osc-data>=0.2.6",
+    "loguru>=0.7.3",
+    "pydantic>=2.0",
+    "soxr",
+    "soundfile",
+    "transformers",
+    "WeTextProcessing",
+]
+
+[project.scripts]
+osc-tts = "osc_tts:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
