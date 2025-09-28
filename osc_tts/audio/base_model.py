@@ -1,15 +1,12 @@
-# -*- coding: utf-8 -*-
-# Time      :2025/3/29 10:28
-# Author    :Hui Huang
 import json
+import os
+import yaml
 
 import torch
 import torch.nn as nn
-import yaml
+from safetensors.torch import load_file
 
 from .utils import load_config
-import os
-from safetensors.torch import load_file
 
 
 class SparkBaseModel(nn.Module):

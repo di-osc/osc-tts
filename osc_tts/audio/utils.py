@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Time      :2025/3/29 10:27
-# Author    :Hui Huang
 from omegaconf import OmegaConf, DictConfig
 import torch
 
